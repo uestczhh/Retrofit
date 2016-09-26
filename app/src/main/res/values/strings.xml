@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="text_head_nav_news">用我的眼带你看世界。。。</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

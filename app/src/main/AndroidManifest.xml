@@ -3,11 +3,13 @@
     package="com.uestczhh.app">
 
     <application
+        android:name=".BaseApplication"
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
+        android:largeHeap="true"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/BaseAppTheme">
         <activity android:name=".MainActivity">
             <!--<intent-filter>-->
             <!--<action android:name="android.intent.action.MAIN" />-->
@@ -16,7 +18,9 @@
             <!--</intent-filter>-->
         </activity>
 
-        <activity android:name=".activity.NewsActivity">
+        <activity
+            android:name=".activity.NewsActivity"
+            android:theme="@style/BaseAppTheme.NoTrans">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
